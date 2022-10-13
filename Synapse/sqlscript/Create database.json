@@ -1,0 +1,17 @@
+{
+	"name": "Create database",
+	"properties": {
+		"content": {
+			"query": "create database db_kchtecnologia_raw",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "master",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
