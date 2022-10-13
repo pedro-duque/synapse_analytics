@@ -1,0 +1,22 @@
+{
+	"name": "raw_database",
+	"properties": {
+		"Name": "raw_database",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://devpedroduquesynapse@devpedroduquesynapse.dfs.core.windows.net/raw_data",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "devpedroduque-WorkspaceDefaultStorage"
+			}
+		}
+	},
+	"type": "DATABASE"
+}
