@@ -4,6 +4,12 @@
 	"parameters": {
 		"workspaceName": {
 			"value": "devpedroduque"
+		},
+		"devpedroduque-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"devpedroduque-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://devpedroduquesynapse.dfs.core.windows.net"
 		}
 	}
 }
